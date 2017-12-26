@@ -17,13 +17,13 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="masthead" role="banner">
+  <header class="masthead gutter-1-2" role="banner">
     <div class="wrapper">
       <h1>Loyal Rescue</h1>
     </div>
     <nav class="navigation" id="nav" tabindex="0">
       <div class="wrapper">
-        <ol class="list-group-inline">
+        <ol class="list-group-inline ib ">
           <li><a href="#home">Home</a></li>
           <li><a href="#rescues">Available Rescues</a></li>
           <li><a href="#donate">Donate</a></li>
@@ -36,55 +36,59 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <section class="about" id="about" tabindex="0">
+    <section class="about push-2" id="about" tabindex="0">
       <div class="embed embed-24by10">
-        <img class="embed-item" src="images/.jpg" alt="" aria-details="banner-details">
+        <img class="embed-item" src="images/banner.jpg" alt="" aria-details="banner-details">
       </div>
       <div class="hidden" id="banner-details" tabindex="0">
         <span>Hidden text describing the image</span>
       </div>
-      <div>
-        <p>Loyal Rescue is a non for profit, volunteer rescue organization dedicated to saving homeless dogs.</p>
-      </div>
-      <div class="button-ghost button-wrapper">
-        <a class="btn" href="#">Learn More</a>
+      <div class="gutter-1-2">
+        <div>
+          <p>Loyal Rescue is a non for profit, volunteer rescue organization dedicated to saving homeless dogs.</p>
+        </div>
+        <div class="btn-ghost button-wrapper">
+          <a class="btn" href="#">Learn More</a>
+        </div>
       </div>
     </section>
 
-    <section class="wrapper" id="rescues" tabindex"0">
-      <h2>Available Rescues</h2>
-      <p>These dogs desperately need a new home.</p>
+    <section class="wrapper" id="rescues" tabindex="0">
+      <div class="text-center gutter-1-2">
+        <h2 class="push-0">Available Rescues</h2>
+        <p>These dogs desperately need a new home.</p>
+      </div>
 
       <div>
         <ul class="grid list-group">
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
-            <div id="" tabindex="0">
-              <h3>Annie</h3>
+            <img class="img-flex push" src="images/annie.jpg" alt="" aria-details="">
+            <div class="gutter-1-2" id="annie" tabindex="0">
+              <h3 class="push-0">Annie</h3>
               <p>Annie is a spunky girl looking for a new home.</p>
-              <div class="button-ghost button-wrapper">
+              <div class="button-ghost button-wrapper push">
                 <a class="btn" href="#">Read More</a>
               </div>
             </div>
           </li>
 
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
-            <div id="" tabindex="0">
-              <h3>Jasper</h3>
+            <img class="img-flex push" src="images/jasper.jpg" alt="" aria-details="">
+            <div class="gutter-1-2" id="jasper" tabindex="0">
+              <h3 class="push-0">Jasper</h3>
               <p>Jasper is a shy, patient male.</p>
-              <div class="button-ghost button-wrapper">
+              <div class="button-ghost button-wrapper push">
                 <a class="btn" href="#">Read More</a>
               </div>
             </div>
           </li>
 
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
-            <div id="" tabindex="0">
-              <h3>Carrot</h3>
+            <img class="img-flex push" src="images/carrot.jpg" alt="" aria-details="">
+            <div class="gutter-1-2" id="carrot" tabindex="0">
+              <h3 class="push-0">Carrot</h3>
               <p>Carrot is an affectionate girl with a big heart.</p>
-              <div class="button-ghost button-wrapper">
+              <div class="button-ghost button-wrapper push-2">
                 <a class="btn" href="#">Read More</a>
               </div>
             </div>
@@ -94,39 +98,42 @@
     </section>
 
     <section id="contact" tabindex="0">
-      <div class="wrapper">
-        <h3>Contact</h3>
-          <ol>
-            <li class="street-address">Loyal Rescue</li>
-            <li class="street-address">1027 Window Way</li>
-            <li class="region">Ottawa, ON</li>
-            <li class="postal-code">H6V 7B1</li>
-            <li class="country-name">Canada</li>
-            <li class="email">contact@loyalrescue.ca</li>
-            <li><a href="tel:+1-555-555-5555">555-555-5555</a></li>
-          </ol>
-      </div>
-
-      <div class="wrapper" id="donate" tabindex="0">
-        <h3>Donate</h3>
-        <img arc="images/.jpg" alt="">[Go Fund me logo]
-      </div>
-
-      <div class="wrapper" id="follow" tabindex="0">
-        <h3>Follow</h3>
-        <div class="icon i-32">
-          <img src="images/logo/icon-facebook.png" alt="">
+      <div class="grid gutter-1-2 list-group">
+        <div class="wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]">
+          <h3>Contact</h3>
+            <ol>
+              <li class="street-address">Loyal Rescue</li>
+              <li class="street-address">1027 Window Way</li>
+              <li class="region">Ottawa, ON</li>
+              <li class="postal-code">H6V 7B1</li>
+              <li class="country-name">Canada</li>
+              <li class="email">contact@loyalrescue.ca</li>
+              <li><a href="tel:+1-555-555-5555">555-555-5555</a></li>
+            </ol>
         </div>
-        <div class="icon i-32">
-          <img src="images/logo/icon-twitter.png" alt="">
+
+        <div class="wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="donate" tabindex="0">
+          <h3>Donate</h3>
+          <img alt="images/.jpg" alt="">[Go Fund me logo]
         </div>
-        <div class="icon i-32">
-          <img src="images/logo/instagram.png" alt="">
+
+        <div class="wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="follow" tabindex="0">
+          <h3>Follow</h3>
+          <div class="icon i-32">
+            <img src="images/logo/icon-facebook.png" alt="">
+          </div>
+          <div class="icon i-32">
+            <img src="images/logo/icon-twitter.png" alt="">
+          </div>
+          <div class="icon i-32">
+            <img src="images/logo/instagram.png" alt="">
+          </div>
         </div>
       </div>
     </section>
+  </main>
 
-    <footer class="footer" role="contentinfo" tabindex="0">
+    <footer class="footer gutter-1-2" role="contentinfo" tabindex="0">
       <div class="wrapper">
         <small class="micro">Loyal Rescue © 2017</small>
       </div>
