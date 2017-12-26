@@ -1,10 +1,66 @@
 html {
-  font-family: "Cabin", sans-serif;
+  font-family: Cabin, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "PT Sans", sans-serif;
+  font-family: PT Sans, sans-serif;
+}
+
+.masthead,
+.contact,
+footer {
+  background-color: #5fd3b6;
+}
+
+nav {
+  position: relative;
+  z-index: 2;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ffbd65;
+  border-radius: 3px;
+}
+
+.about {
+  position: relative;
+}
+
+.about-content {
+  background-color: #a3cda5;
+}
+
+.btn {
+  background-color: #f37e53;
+  border-color: #f37e53;
+}
+
+.btn:hover {
+  background-color: #5aa8c6;
+  border-color: #5aa8c6;
+}
+
+.contact {
+  color: #000;
+  list-style: none;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .about-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    background-color: transparent;
+  }
+
 }
