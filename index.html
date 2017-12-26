@@ -11,47 +11,49 @@
 </head>
 <body>
 
-  <header>
-    <header>
-      <div>
-        <h1>Loyal Rescue</h1>
+  <header class="masthead" role="banner">
+    <div class="wrapper">
+      <h1>Loyal Rescue</h1>
+    </div>
+    <nav class="navigation" id="nav" tabindex="0">
+      <div class="wrapper">
+        <ol class="list-group-inline">
+          <li><a href="">Home</a></li>
+          <li><a href="">Available Rescues</a></li>
+          <li><a href="">Donate</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Application</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ol>
       </div>
-      <nav>
-        <div>
-          <ol>
-            <li><a href="">Home</a></li>
-            <li><a href="">Available Rescues</a></li>
-            <li><a href="">Donate</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Application</a></li>
-            <li><a href="">Contact Us</a></li>
-          </ol>
-        </div>
-      </nav>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <div>
-        <img src="" alt="images/.jpg">
+  <main role="main" id="main" tabindex="0">
+    <section class="about" id="about" tabindex="0">
+      <div class="embed embed-24by10">
+        <img class="embed-item" src="images/.jpg" alt="" aria-details="banner-details">
+      </div>
+      <div class="hidden" id="banner-details" tabindex="0">
+        <span>Hidden text describing the image</span>
       </div>
       <div>
         <p>Loyal Rescue is a non for profit, volunteer rescue organization dedicated to saving homeless dogs.</p>
       </div>
-      <div>
-        <a href="">Learn More</a>
+      <div class="button-ghost button-wrapper">
+        <a class="btn" href="#">Learn More</a>
       </div>
     </section>
 
-    <section>
+    <section class="wrapper" id="rescues" tabindex"0">
       <h2>Available Rescues</h2>
       <p>These dogs desperately need a new home.</p>
 
       <div>
-        <ul>
-          <li>
-            <img src="images/.jpg" alt="">
-            <div>
+        <ul class="grid list-group">
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
+            <div id="" tabindex="0">
               <h3>Annie</h3>
               <p>Annie is a spunky girl looking for a new home.</p>
               <div>
@@ -60,9 +62,9 @@
             </div>
           </li>
 
-          <li>
-            <img src="images/.jpg" alt="">
-            <div>
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
+            <div id="" tabindex="0">
               <h3>Jasper</h3>
               <p>Jasper is a shy, patient male.</p>
               <div>
@@ -71,9 +73,9 @@
             </div>
           </li>
 
-          <li>
-            <img src="images/.jpg" alt="">
-            <div>
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+            <img class="img-flex" src="images/.jpg" alt="" aria-details="">
+            <div id="" tabindex="0">
               <h3>Carrot</h3>
               <p>Carrot is an affectionate girl with a big heart.</p>
               <div>
@@ -85,8 +87,8 @@
       </div>
     </section>
 
-    <section>
-      <div>
+    <section id="contact" tabindex="0">
+      <div class="wrapper">
         <h3>Contact</h3>
           <ol>
             <li class="street-address">Loyal Rescue</li>
@@ -99,12 +101,12 @@
           </ol>
       </div>
 
-      <div>
+      <div class="wrapper" id="donate" tabindex="0">
         <h3>Donate</h3>
         <img arc="images/.jpg" alt="">[Go Fund me logo]
       </div>
 
-      <div>
+      <div class="wrapper" id="follow" tabindex="0">
         <h3>Follow</h3>
         <div class="icon i-32">
           <img src="images/logo/icon-facebook.png" alt="">
@@ -118,9 +120,9 @@
       </div>
     </section>
 
-    <footer>
-      <div>
-        <small>Loyal Rescue © 2017</small>
+    <footer class="footer" role="contentinfo" tabindex="0">
+      <div class="wrapper">
+        <small class="micro">Loyal Rescue © 2017</small>
       </div>
     </footer>
 
