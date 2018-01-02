@@ -7,13 +7,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .masthead,
 .contact,
 footer {
-  background-color: #5BBFA6;
+  background-color: #5bbfa6;
 }
 
 nav {
@@ -52,6 +52,10 @@ nav a:hover {
 .contact {
   color: #000;
   list-style: none;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 35em) {
