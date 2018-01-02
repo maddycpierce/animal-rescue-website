@@ -1,5 +1,6 @@
 html {
   font-family: Cabin, sans-serif;
+  background-color: #f7fff6;
 }
 
 h1,
@@ -12,7 +13,7 @@ h4 {
 .masthead,
 .contact,
 footer {
-  background-color: #5fd3b6;
+  background-color: #5BBFA6;
 }
 
 nav {
@@ -26,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ffbd65;
+  background-color: #bcebcb;
   border-radius: 3px;
 }
 
@@ -35,17 +36,17 @@ nav a:hover {
 }
 
 .about-content {
-  background-color: #a3cda5;
+  background-color: #bcebcb;
 }
 
 .btn {
-  background-color: #f37e53;
-  border-color: #f37e53;
+  background-color: #f17300;
+  border-color: #f17300;
 }
 
 .btn:hover {
-  background-color: #5aa8c6;
-  border-color: #5aa8c6;
+  background-color: #9a4a00;
+  border-color: #9a4a00;
 }
 
 .contact {
