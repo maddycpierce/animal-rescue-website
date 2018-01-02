@@ -73,11 +73,12 @@ Oliver
 Oliver loves a good nap.
 Read More
 
-
 Available Rescues
 These dogs are in desperate need of a new home.
 
-Name of dog you are applying for:
+Rescue Adoption Application
+Name of dog you are applying for: *
+--- Please Select ---
 Annie
 Bernard
 Carrot

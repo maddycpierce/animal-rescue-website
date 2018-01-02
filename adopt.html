@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Loyal Rescue</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|PT+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="masthead gutter-1-2 text-center pad-t" role="banner">
+    <div class="wrapper">
+      <h1 class="push-0 yotta">Loyal Rescue</h1>
+    </div>
+    <nav class="navigation" id="nav" tabindex="0">
+      <div class="wrapper">
+        <ol class="list-group-inline ib">
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html">Home</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="rescues.html">Available Rescues</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#donate">Donate</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#faq">FAQ</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="adopt.html">Application</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact Us</a></li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    <section class="contact pad-t-2 pad-b-2">
+      <div class="max-length">
+        <h2>Rescue Adoption Application</h2>
+
+        <fieldset class="push-0">
+          <legend class="normal giga">Rescue</legend>
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="subject">Name of dog you are applying for: *</label>
+            <select id="subject" name="_subject">
+              <option>--- Please Select ---</option>
+              <option>Annie</option>
+              <option>Bernard</option>
+              <option>Carrot</option>
+              <option>Jasper</option>
+              <option>Oliver</option>
+              <option>Pixie</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset class="push-0">
+          <legend class="normal push giga">Personal details</legend>
+
+          <form class="grid push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+            <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+
+            <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="me@me.com" name="email">
+            </div>
+
+            <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+              <label for="subject">Province</label>
+              <select id="subject" name="_subject">
+                <option>--- Please Select ---</option>
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland & Labrador</option>
+                <option>Northwest Territories</option>
+                <option>Nova Scotia</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>Prince Edward Island</option>
+                <option>Quebec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+              </select>
+            </div>
+          </fieldset>
+
+
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="details">What's up?</label>
+            <textarea id="details" name="message"></textarea>
+          </div>
+          <div>
+            <button class="btn btn-light" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact gutter-1-2" id="contact" tabindex="0">
+      <div class="grid list-group pad-t-2">
+        <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]">
+          <h2>Contact</h2>
+            <ol>
+              <li class="street-address">Loyal Rescue</li>
+              <li class="street-address">1027 Window Way</li>
+              <li class="region">Ottawa, ON</li>
+              <li class="postal-code">H6V 7B1</li>
+              <li class="country-name">Canada</li>
+              <li class="email">contact@loyalrescue.ca</li>
+              <li><a href="tel:+1-555-555-5555">555-555-5555</a></li>
+            </ol>
+        </div>
+
+        <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="donate" tabindex="0">
+          <h2>Donate</h2>
+          <img src="images/.jpg" alt="">[Go Fund me logo]
+        </div>
+
+        <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="follow" tabindex="0">
+          <h2>Follow</h2>
+          <div class="icon i-32">
+            <img src="images/logo/icon-facebook.png" alt="">
+          </div>
+          <div class="icon i-32">
+            <img src="images/logo/icon-twitter.png" alt="">
+          </div>
+          <div class="icon i-32">
+            <img src="images/logo/instagram.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer gutter-1-2" role="contentinfo" tabindex="0">
+      <div class="wrapper pad-b">
+        <small class="micro">Loyal Rescue © 2017</small>
+      </div>
+    </footer>
+
+</body>
+</html>
