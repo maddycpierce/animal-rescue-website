@@ -49,6 +49,10 @@ nav a:hover {
   border-color: #9a4a00;
 }
 
+.button-wrapper:hover {
+  background: transparent;
+}
+
 .contact {
   color: #000;
   list-style: none;
@@ -63,7 +67,6 @@ nav a:hover {
   .about-content {
     bottom: 0;
     position: absolute;
-    width: 100%;
 
     background-color: transparent;
   }
