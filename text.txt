@@ -55,7 +55,7 @@ Jasper is a shy, patient male.
 Read More
 
 Carrot
-Carrot is an affectionate anime with a big heart.
+Carrot is an affectionate dog with a big heart.
 Read More
 
 Bernard
@@ -158,63 +158,51 @@ Average
 Other
 
 Do you own or rent? *
---- Please Select ---
 Own
 Rent
 
 Does anyone in the family have a known allergy to dogs? *
---- Please Select ---
 Yes
 No
 
-Is everyone in agreement with the decision to adopt a dog? *
---- Please Select ---
+Is everyone in agreement to adopt a dog? *
 Yes
 No
 
 Do you have time to provide adequate love and attention? *
---- Please Select ---
 Yes
 No
 
 Other Pets
 Do you have any other pets in your household? *
---- Please Select ---
 Yes
 No
 
-If so, please indicate what type of pet and how many: *
+If so, please indicate what type of pet(s) and how many: *
 Pet
 Number
 
 Have you ever surrendered a pet? *
---- Please Select ---
 Yes
 No
 
 Have you ever had a pet euthanized? *
---- Please Select ---
 Yes
 No
 
 Have you ever lost a pet to an accident? *
---- Please Select ---
 Yes
 No
 
-How do you discipline your pets and why? *
---- Please Select ---
-Yes
-No
+If you have previously had a pet, how do you discipline them, and why?
 
 Veterinarian
 Do you have a regular veterinarian? *
---- Please Select ---
 Yes
 No
 
 About the Dog You Wish To Adopt
-What is you idea of an ideal dog and why? *
+What is your idea of an ideal dog and why? *
 
 Where will the dog spend the day? (check all that apply) *
 Crated
@@ -238,18 +226,19 @@ When the dog goes out, how do you plan to supervise it? (check all that apply)
 Fenced Yard
 On Leash
 Off Leash
-Do you agree to contact Marshall's Dog Rescue if you can no longer keep this dog?
+
+Do you agree to contact Loyal Rescue if you can no longer keep this dog?
 --- Please Select ---
 Yes
 No
 
-Are you willing to let a representative of Marshall's Dog Rescue visit your home by appointment before adoption?
+Are you willing to let a representative of Loyal Rescue visit your home by appointment before adoption?
 --- Please Select ---
 Yes
 No
 
 Personal References
-Please list two people who are familiar with both you and your pet(S).
+Please list two people who are familiar with both you and your pet(s).
 Reference #1 (no family members)
 Name *
 Phone *
