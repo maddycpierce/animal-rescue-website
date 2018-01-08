@@ -9,7 +9,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin|PT+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
@@ -50,49 +50,49 @@
         <div class="gutter-1-2 max-length about-content pad-t pad-b">
           <p>Loyal Rescue is a non for profit, volunteer rescue organization dedicated to saving homeless dogs.</p>
           <div class="btn-ghost button-wrapper">
-            <a class="btn" href="rescues.html">Learn More</a>
+            <a class="btn" href="rescues.html" aria-label="Learn more about Local Rescue">Learn More</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="wrapper" id="rescues" tabindex="0">
+    <section class="wrapper push-2" id="rescues" tabindex="0">
       <div class="text-center gutter-1-2">
         <h1 class="exa push-0">Available Rescues</h1>
         <p>These dogs desperately need a new home.</p>
       </div>
 
       <div>
-        <ul class="grid list-group">
-          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+        <ul class="grid list-group gutter-1-4">
+          <li class="card unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter-1-4">
             <img class="img-flex push" src="images/annie.jpg" alt="A white rescue dog named Annie who is up for adoption.">
-            <div class="gutter-1-2" id="annie" tabindex="0">
+            <div id="annie" tabindex="0">
               <h2 class="push-0">Annie</h2>
               <p>Annie is a spunky girl looking for a new home.</p>
               <div class="button-ghost button-wrapper push">
-                <a class="btn" href="rescues.html">Read More</a>
+                <a class="btn" href="#" aria-label="Read more about Annie">Read More</a>
               </div>
             </div>
           </li>
 
-          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+          <li class="card unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter-1-4">
             <img class="img-flex push" src="images/pixie.jpg" alt="A black and white Border Collie rescue dog named Pixie who is up for adoption.">
-            <div class="gutter-1-2" id="pixie" tabindex="0">
+            <div id="pixie" tabindex="0">
               <h2 class="push-0">Pixie</h2>
               <p>Pixie is an enthusiastic girl who loves to play fetch.</p>
               <div class="button-ghost button-wrapper push">
-                <a class="btn" href="rescues.html">Read More</a>
+                <a class="btn" href="#" aria-label="Read more about Pixie">Read More</a>
               </div>
             </div>
           </li>
 
-          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+          <li class="card unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter-1-4">
             <img class="img-flex push" src="images/oliver.jpg" alt="A brown miniature poodle rescue dog named Oliver who is up for adoption.">
-            <div class="gutter-1-2" id="carrot" tabindex="0">
+            <div id="carrot" tabindex="0">
               <h2 class="push-0">Oliver</h2>
               <p>Oliver loves a good nap.</p>
               <div class="button-ghost button-wrapper push-2">
-                <a class="btn" href="rescues.html">Read More</a>
+                <a class="btn" href="#" aria-label="Read more about Oliver">Read More</a>
               </div>
             </div>
           </li>
@@ -100,10 +100,10 @@
       </div>
     </section>
 
-    <section class="contact gutter-1-2" id="contact" tabindex="0">
+    <section class="gutter-1-2 contact" id="contact-form" tabindex="0">
       <div class="grid list-group pad-t-2">
-        <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]">
-          <h3>Contact</h3>
+        <div class="inline-block push wrapper unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+          <h2>Contact</h2>
           <ol>
             <li class="street-address">Loyal Rescue</li>
             <li class="street-address">1027 Window Way</li>
@@ -111,22 +111,24 @@
             <li class="postal-code">H6V 7B1</li>
             <li class="country-name">Canada</li>
             <li class="email">contact@loyalrescue.ca</li>
-            <li><a href="tel:+1-555-555-5555">555-555-5555</a></li>
+            <li><a href="tel:+1-555-555-5555" aria-label="Call Local Rescue">555-555-5555</a></li>
           </ol>
         </div>
 
-        <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="donate" tabindex="0">
-          <h3>Donate</h3>
-          <i class="icon i-128">
-            <img src="images/gofundme.png" alt="">
-          </i>
+        <div class="inline-block push wrapper unit [ xs-1 s-1 m-1-2 l-1-2 ]" id="donate" tabindex="0">
+          <h2>Donate</h2>
+          <a href="https://www.gofundme.com/" aria-label="Visit Local Rescue's Go Fund Me page">
+            <i class="icon i-128">
+              <img src="images/gofundme.png" alt="">
+            </i>
+          </a>
         </div>
 
         <div class="push wrapper unit [ xs-1 s-1 m-1-3 l-1-3 ]" id="follow" tabindex="0">
-          <h3>Follow</h3>
+          <h2>Follow</h2>
           <ul class="list-group-inline">
             <li class="center-text">
-              <a class="block social-icon" href="#">
+              <a class="block social-icon" href="#" aria-label="Visit Local Rescue's Facebook page">
                 <i class="icon i-32">
                   <img src="images/facebook.png" alt="Facebook">
                 </i>
@@ -134,17 +136,17 @@
             </li>
 
             <li class="center-text">
-              <a class="block social-icon gutter-1-4" href="#">
+              <a class="block social-icon gutter-1-4" href="#" aria-label="Visit Local Rescue's Twitter profile">
                 <i class="icon i-32">
-                  <img src="images/twitter.png" alt="Twitter">
+                  <img src="images/twitter.png" alt="">
                 </i>
               </a>
             </li>
 
             <li class="center-text">
-              <a class="block social-icon" href="#">
+              <a class="block social-icon" href="#" aria-label="Visit Local Rescue's Instagram profile">
                 <i class="icon i-32">
-                  <img src="images/instagram.png" alt="Instagram">
+                  <img src="images/instagram.png" alt="">
                 </i>
               </a>
             </li>

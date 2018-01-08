@@ -1,13 +1,6 @@
 html {
-  font-family: Cabin, sans-serif;
-  background-color: #fff;
-}
-
-h1,
-h2,
-h3,
-h4 {
   font-family: "PT Sans", sans-serif;
+  background-color: #fff;
 }
 
 .masthead,
@@ -47,6 +40,16 @@ nav a:hover {
 .btn:hover {
   background-color: #6b9080;
   border: none;
+}
+
+.btn-ghost {
+  border: none;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #6b9080;
+  color: #fff;
 }
 
 .button-wrapper:hover {
